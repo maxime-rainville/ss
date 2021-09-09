@@ -1,0 +1,28 @@
+{
+    "name": "maxime-rainville/ss",
+    "description": "Helper command for Maxime's generic Silverstripe set up",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxime Rainville",
+            "email": "maxime@silverstripe.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/console": "^5.3.0",
+        "symfony/filesystem": "^5.3.0",
+        "m1/env": "^2.2"
+    },
+    "bin": [
+        "bin/ss"
+    ],
+    "autoload": {
+        "psr-4": {
+            "MaximeRainville\\SS\\": "src/",
+            "MaximeRainville\\SS\\Tests\\": "tests/"
+        }
+    },
+    "prefer-stable": true
+}
