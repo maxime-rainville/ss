@@ -16,7 +16,7 @@
         "m1/env": "^2.2"
     },
     "bin": [
-        "bin/ss"
+        "bin/ss-cli"
     ],
     "autoload": {
         "psr-4": {

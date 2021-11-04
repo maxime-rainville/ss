@@ -89,7 +89,7 @@ class HostFile
 
     public function add(string $ip, string $host)
     {
-        $this->fs->appendToFile($this->path, "$ip\t$host");
+        $this->fs->appendToFile($this->path, "\n$ip\t$host");
     }
 
 }

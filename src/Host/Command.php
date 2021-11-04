@@ -26,7 +26,7 @@ class Command extends SymfonyCommand
         $io = new SymfonyStyle($input, $output);
 
         if (!file_exists('.env')) {
-            $io->error("Could not find an environment file. Run `ss env` first");
+            $io->error("Could not find an environment file. Run `ss-cli env` first");
             return Command::INVALID;
         }
 

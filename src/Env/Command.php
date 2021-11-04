@@ -65,7 +65,8 @@ class Command extends SymfonyCommand
             new BaseUrlHelper(),
             new EnvTypeHelper(),
             new DatabaseHelper(),
-            new DefaultAdminHelper()
+            new DefaultAdminHelper(),
+            new MfaHelper(),
         ];
     }
 }
